@@ -1,0 +1,12 @@
+cffi==1.9.0
+falcon==1.1.0
+falcon-jsonify==1.1
+greenlet==0.4.10
+gunicorn==19.6.0
+mongoengine==0.10.6
+pymongo==3.3.1
+python-mimeparse==1.6.0
+six==1.10.0
+waitress
+cerberus
+webargs==5.4.0
