@@ -2,12 +2,12 @@ import falcon
 import re
 
 from cerberus import Validator, DocumentError
-from src.utils.auth import *
-from src.utils.hooks import auth_required
-from src.resources import user
-from src.resources.base.base import BaseResource
-from src.model.user import User
-from src.conf import initMongoDBConn, initConfig
+from server.utils.auth import *
+from server.utils.hooks import auth_required
+from server.resources import user
+from server.resources.base.base import BaseResource
+from server.model.user import User
+from server.conf import initMongoDBConn, initConfig
 from bson.json_util import dumps
 from webargs import fields
 from webargs.falconparser import use_args

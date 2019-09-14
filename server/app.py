@@ -2,12 +2,12 @@ import falcon
 import falcon_jsonify
 import mongoengine as mongo
 
-import src.settings as settings
-from src.resources.example import ExampleResource
-from src.middleware.auth import AuthHandler
-from src.resources.base import base
-from src.resources import user
-from src.middleware.json_translator import JSONTranslator
+import server.settings as settings
+from server.resources.example import ExampleResource
+from server.middleware.auth import AuthHandler
+from server.resources.base import base
+from server.resources import user
+from server.middleware.json_translator import JSONTranslator
 
 
 class App(falcon.API):

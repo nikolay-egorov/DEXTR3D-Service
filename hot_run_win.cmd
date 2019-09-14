@@ -1,1 +1,1 @@
-hupper -m waitress --port=8000 src.app:api
+hupper -m waitress --port=8000 server.app:api

@@ -1,6 +1,6 @@
 import falcon
 
-from src.models import ExampleModel
+from server.models import ExampleModel
 
 
 class ExampleResource(object):

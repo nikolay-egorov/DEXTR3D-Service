@@ -1,4 +1,4 @@
-from src.utils.auth import decrypt_token
+from server.utils.auth import decrypt_token
 
 
 
