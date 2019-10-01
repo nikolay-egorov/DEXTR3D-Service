@@ -1,0 +1,21 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode=development --host=0.0.0.0 --devtool=eval-source-map"
+  },
+  "author": "Igor K",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.41.0",
+    "webpack-dev-server": "^3.8.1",
+    "webpack-cli": "^3.3.9",
+    "babel-core": "^6.26.3",
+    "html-webpack-plugin": "^3.2.0"
+  },
+  "dependencies": {
+    "angular": "^1.7.8"
+  }
+}
