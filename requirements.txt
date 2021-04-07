@@ -9,4 +9,4 @@ python-mimeparse==1.6.0
 six==1.10.0
 waitress
 cerberus
-webargs==5.4.0
+webargs==5.5.3
